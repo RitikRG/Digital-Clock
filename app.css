@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,400;1,700&display=swap');
+body{
+    margin:0%;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-weight: 500;
+    font-size: 3rem;
+    margin:10px;
+    color: whitesmoke;
+    
+}
+h2{
+    margin: 0%;
+    font-size: 1em;
+    color: whitesmoke;
+}
+h6{
+    font-weight: 600;
+    font-size: 1em;
+    padding: 3px 0px;
+    margin: 0px;
+    background-color: #9d4edd;
+    color: whitesmoke;
+}
+h3#DCheading{
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 0;
+    color: whitesmoke;
+    position: relative;
+    top: 45vh;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    margin: 0%;
+    text-align: center;
+    background: center/cover url(https://images.pexels.com/photos/4124167/pexels-photo-4124167.jpeg?auto=compress&cs=tinysrgb&w=400);
+}
+.time-container{
+    width: 50vw;
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.count{
+    padding-top: 5px;
+    margin: 10px;
+    width: 30%;
+    background-color: #e0aaff;
+    opacity: 0.8;
+}
+#am-pm{
+    height: 20px;
+    width: 7%;
+    align-self:baseline;
+    position: relative;
+    margin-top: 88px;
+    padding: 2px;
+    background-color: #10002b;
+    
+}
